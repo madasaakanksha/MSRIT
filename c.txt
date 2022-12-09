@@ -1,0 +1,47 @@
+how to conflict mergeconflict
+
+git init
+git add .
+git commit -m "text"
+git branch f1
+git branch f2
+
+git checkout f1
+cat a.txt
+hello
+
+git add .
+git commit -m"changed"
+cat a.txt
+hello good morning
+
+git checkout master
+cat a.txt
+hello
+
+git merge f1
+cat a.txt
+hello good morning
+
+git checkout f2
+cat a.txt
+
+modify in text file ->namaste
+
+git add .
+git commit -m "changed"
+
+cat a.txt
+git checkout master
+
+cat a.txt
+git merge f2
+
+ solving merge conflict
+
+git add .
+git commit -m "resolved merge conflict"
+git merge f2
+cat a.txt
+
+
