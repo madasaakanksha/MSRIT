@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'test'//commit
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'this is test'//comment navya
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'This is deploy'//this is deploy stage
+               
+            }
+        }
+         
+         }
+       post//post
+           {
+              always
+              {
+                 emailext body: 'summary', replyTo: 'madasaakanksha0@gmail.com', subject: 'jenkinspipeline', to: 'madasaakanksha0@gmail.com'//this is post line
+              }
+           }
+}
+
