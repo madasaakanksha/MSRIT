@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'test'//commit
+                echo 'test'//commit  sjnj
             }
         }
         stage('Test') {
