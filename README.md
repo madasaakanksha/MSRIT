@@ -1,7 +1,4 @@
-# MSRIT
-sfjdkljghgjgkkgkfgk
-good morrrrr
-byeeeeeeee
-again hiiiiiiii
-webhookkkkkkk
-ppppppppp
+akanksha
+mca department
+ms ramaiah institute of technology
+banglore
